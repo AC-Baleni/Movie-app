@@ -1,0 +1,31 @@
+/* MovieList.module.css */
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 100%; /* Ensures the grid takes the full width of the container */
+    box-sizing: border-box; /* Includes padding in the element's total width and height */
+}
+
+.movieCard {
+    
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.movieCard:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    transform: scale(1.02);
+    
+}
+.movieCard h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.moviePoster {
+    width: 100%;
+    border-radius: 8px;
+}

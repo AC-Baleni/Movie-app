@@ -1,0 +1,10 @@
+body{
+  background: #534f4f;
+  color: #fff;
+}
+.mainContent{
+  position: fixed;
+  padding: 20px;
+  width: 90%;
+  top: 100px;
+}
