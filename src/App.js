@@ -11,6 +11,7 @@ function App() {
             <NavbarComponent />
             <div className={style.mainContent}>
                 <MovieList/>
+                //Pagination component
             </div>
         </div>
     );
